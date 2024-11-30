@@ -29,14 +29,14 @@ _"GitHub Copilot ve VS Code Kullanarak Yapay Zeka Destekli Kod Önerileriyle Gel
 
 GitHub Copilot, kodu daha hızlı ve daha az çabayla yazmanıza yardımcı olan bir yapay zeka eş programcısıdır. Yorumlardan ve koddan bağlam alarak size anında tek satırlık kodlar veya tüm fonksiyonlar önerebilir. GitHub Copilot, OpenAI tarafından oluşturulan ve önceden eğitilmiş bir dil modeli olan OpenAI Codex tarafından desteklenmektedir.
 
-**Copilot works with many code editors including VS Code, Visual Studio, JetBrains IDE, and Neovim.**
+**Copilot, VS Code, Visual Studio, JetBrains IDE ve Neovim gibi birçok kod editörüyle çalışır.**
 
-Additionally, GitHub Copilot is trained on all languages that appear in public repositories. For each language, the quality of suggestions you receive may depend on the volume and diversity of training data for that language.
+Ayrıca, GitHub Copilot herkese açık depolarda bulunan tüm programlama dilleri üzerinde eğitilmiştir. Her dil için aldığınız önerilerin kalitesi, o dilin eğitim verisinin hacmi ve çeşitliliğine bağlı olarak değişebilir.  
 
-Using Copilot inside a Codespace shows just how easy it is to get up and running with GitHub's suite of [Collaborative Coding](https://github.com/features#features-collaboration) tools.
+Codespace içinde Copilot kullanmak, GitHub'ın [İş Birliğine Dayalı Kodlama](https://github.com/features#features-collaboration) araçlarıyla çalışmaya başlamanın ne kadar kolay olduğunu gösterir.
 
-> **Note**
-> This skills exercise will focus on leveraging GitHub Codespace. It is recommended that you complete the GitHub skill, [Codespaces](https://github.com/skills/code-with-codespaces), before moving forward with this exercise.
+> **Not**
+> Bu beceri alıştırması, GitHub Codespace'i kullanmaya odaklanacaktır. Bu alıştırmaya devam etmeden önce GitHub becerisi olan [Codespaces](https://github.com/skills/code-with-codespaces) rehberini tamamlamanız önerilir.
 
 ### :keyboard: Activity: Enable Copilot inside a Codespace
 
