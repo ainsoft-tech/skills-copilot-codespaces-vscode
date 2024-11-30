@@ -25,9 +25,9 @@ _GitHub Copilot, VS Code ve Codespaces içinde tamamlama tarzı öneriler sunara
 
 ## Step 1: Copilot için VS Code ile Codespaces'ten faydalanın.
 
-_Welcome to "Develop With AI Powered Code Suggestions Using GitHub Copilot and VS Code"! :wave:_
+_"GitHub Copilot ve VS Code Kullanarak Yapay Zeka Destekli Kod Önerileriyle Geliştirme"ye Hoş Geldiniz! :wave:_
 
-GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pretrained language model created by OpenAI.
+GitHub Copilot, kodu daha hızlı ve daha az çabayla yazmanıza yardımcı olan bir yapay zeka eş programcısıdır. Yorumlardan ve koddan bağlam alarak size anında tek satırlık kodlar veya tüm fonksiyonlar önerebilir. GitHub Copilot, OpenAI tarafından oluşturulan ve önceden eğitilmiş bir dil modeli olan OpenAI Codex tarafından desteklenmektedir.
 
 **Copilot works with many code editors including VS Code, Visual Studio, JetBrains IDE, and Neovim.**
 
