@@ -11,7 +11,7 @@
 
 # Code with GitHub Copilot
 
-_GitHub Copilot can help you code by offering autocomplete-style suggestions right in VS Code and Codespaces._
+_GitHub Copilot, VS Code ve Codespaces içinde tamamlama tarzı öneriler sunarak kod yazmanıza yardımcı olabilir._
 
 </header>
 
@@ -23,7 +23,7 @@ _GitHub Copilot can help you code by offering autocomplete-style suggestions rig
   Encourage users to open new tabs for steps!
 -->
 
-## Step 1: Leverage Codespaces with VS Code for Copilot
+## Step 1: Copilot için VS Code ile Codespaces'ten faydalanın.
 
 _Welcome to "Develop With AI Powered Code Suggestions Using GitHub Copilot and VS Code"! :wave:_
 
