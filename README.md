@@ -38,18 +38,19 @@ Codespace içinde Copilot kullanmak, GitHub'ın [İş Birliğine Dayalı Kodlama
 > **Not**
 > Bu beceri alıştırması, GitHub Codespace'i kullanmaya odaklanacaktır. Bu alıştırmaya devam etmeden önce GitHub becerisi olan [Codespaces](https://github.com/skills/code-with-codespaces) rehberini tamamlamanız önerilir.
 
-### :keyboard: Activity: Enable Copilot inside a Codespace
+### :keyboard: Activity: Codespace içinde Copilot'u etkinleştir.
 
-**We recommend opening another browser tab to work through the following activities so you can keep these instructions open for reference.**
+**Aşağıdaki etkinlikleri tamamlamak için bu talimatları referans olarak açık tutabilmek amacıyla başka bir tarayıcı sekmesi açmanızı öneririz.**
 
-Before you open up a codespace on a repository, you can create a development container and define specific extensions or configurations that will be used or installed in your codespace. Let's create this development container and add copilot to the list of extensions.
+Bir repository üzerinde codespace açmadan önce, bir geliştirme konteyneri oluşturabilir ve codespace'inizde kullanılacak veya yüklenecek belirli uzantıları veya yapılandırmaları tanımlayabilirsiniz. Şimdi bu geliştirme konteynerini oluşturalım ve Copilot'u uzantılar listesine ekleyelim.
 
-1. Navigating back to your **Code** tab of your repository, click the **Add file** drop-down button, and then click `Create new file`.
-1. Type or paste the following in the empty text field prompt to name your file.
+### Adım 1:
+1. Repository'nizin **Code** sekmesine geri dönün, **Add file** açılır menüsüne tıklayın ve ardından `Create new file` seçeneğine tıklayın.
+2. Boş metin alanına aşağıdaki kodu yazın veya yapıştırın:
    ```
    .devcontainer/devcontainer.json
    ```
-1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content:
+3. Yeni **.devcontainer/devcontainer.json** dosyasının içine aşağıdaki içeriği ekleyin:
    ```
    {
        // Name this configuration
