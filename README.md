@@ -16,68 +16,61 @@ _GitHub Copilot, VS Code ve Codespaces içinde tamamlama tarzı öneriler sunara
 </header>
 
 <!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
 -->
 
-## Step 1: Copilot için VS Code ile Codespaces'ten faydalanın.
+## Step 2: Seeing AI code suggestions in a Javascript file!
 
-_"GitHub Copilot ve VS Code Kullanarak Yapay Zeka Destekli Kod Önerileriyle Geliştirme"ye Hoş Geldiniz! :wave:_
+_Nice work! :tada: You created a Codespace using a devcontainer file that installed Copilot!_
 
-GitHub Copilot, kodu daha hızlı ve daha az çabayla yazmanıza yardımcı olan bir yapay zeka eş programcısıdır. Yorumlardan ve koddan bağlam alarak size anında tek satırlık kodlar veya tüm fonksiyonlar önerebilir. GitHub Copilot, OpenAI tarafından oluşturulan ve önceden eğitilmiş bir dil modeli olan OpenAI Codex tarafından desteklenmektedir.
+GitHub Copilot provides suggestions for numerous languages and a wide variety of frameworks, but works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. The following samples are in JavaScript, but other languages will work similarly.
 
-**Copilot, VS Code, Visual Studio, JetBrains IDE ve Neovim gibi birçok kod editörüyle çalışır.**
+Let's try this out utilizing Javascript for Copilot.
 
-Ayrıca, GitHub Copilot herkese açık depolarda bulunan tüm programlama dilleri üzerinde eğitilmiştir. Her dil için aldığınız önerilerin kalitesi, o dilin eğitim verisinin hacmi ve çeşitliliğine bağlı olarak değişebilir.  
+### :keyboard: Activity: Add a Javascript file and start writing code
 
-Codespace içinde Copilot kullanmak, GitHub'ın [İş Birliğine Dayalı Kodlama](https://github.com/features#features-collaboration) araçlarıyla çalışmaya başlamanın ne kadar kolay olduğunu gösterir.
+1. From inside the codespace in the VS Code explorer window, create a new file.
 
-> **Not**
-> Bu beceri alıştırması, GitHub Codespace'i kullanmaya odaklanacaktır. Bu alıştırmaya devam etmeden önce GitHub becerisi olan [Codespaces](https://github.com/skills/code-with-codespaces) rehberini tamamlamanız önerilir.
+> **Note**:
+> If you closed the Codespace from above, please open it back up or create a new Codespace.
 
-### :keyboard: Activity: Codespace içinde Copilot'u etkinleştir.
+2. Name the file `skills.js`
+3. Verify your new file looks like:
+   ![Screen Shot 2023-03-09 at 9 21 34 AM](https://user-images.githubusercontent.com/26442605/224105906-d1beb531-b747-4c7a-85ba-a12526488422.png)
+4. In the `skills.js` file, type the following function header.
 
-**Aşağıdaki etkinlikleri tamamlamak için bu talimatları referans olarak açık tutabilmek amacıyla başka bir tarayıcı sekmesi açmanızı öneririz.**
-
-Bir repository üzerinde codespace açmadan önce, bir geliştirme konteyneri oluşturabilir ve codespace'inizde kullanılacak veya yüklenecek belirli uzantıları veya yapılandırmaları tanımlayabilirsiniz. Şimdi bu geliştirme konteynerini oluşturalım ve Copilot'u uzantılar listesine ekleyelim.
-
-### Adım 1:
-1. Repository'nizin **Code** sekmesine geri dönün, **Add file** açılır menüsüne tıklayın ve ardından `Create new file` seçeneğine tıklayın.
-2. Boş metin alanına aşağıdaki kodu yazın veya yapıştırın:
    ```
-   .devcontainer/devcontainer.json
+   function calculateNumbers(var1, var2)
    ```
-3. Yeni **.devcontainer/devcontainer.json** dosyasının içine aşağıdaki içeriği ekleyin:
+
+   GitHub Copilot will automatically suggest an entire function body in grayed text. Below is an example of what you'll most likely see, but the exact suggestion may vary.
+   ![Screen Shot 2023-04-27 at 10 23 06 AM](https://user-images.githubusercontent.com/26442605/234941079-b4bf3e9d-fc70-4b20-b74c-0ee753ba344e.png)
+
+5. Press `Tab` to accept the suggestion.
+
+### :keyboard: Activity: Push code to your repository from the codespace
+
+1. Use the VS Code terminal to add the `skills.js` file to the repository:
+
    ```
-   {
-       // Name this configuration
-       "name": "Codespace for Skills!",
-       "customizations": {
-           "vscode": {
-               "extensions": [
-                   "GitHub.copilot"
-               ]
-           }
-       }
-   }
+   git add skills.js
    ```
-4. **Doğrudan `main` dalına commit yapma** seçeneğini seçin ve ardından **Yeni dosyayı commit et** butonuna tıklayın.  
-5. Ekranın sol üst kısmındaki **Code** sekmesine tıklayarak repository'nizin ana sayfasına geri dönün.  
-6. Sayfanın ortasında bulunan **Code** butonuna tıklayın.  
-7. Açılan kutuda **Codespaces** sekmesine tıklayın.  
-8. **Main üzerinde codespace oluştur** butonuna tıklayın.
 
-   **Codespace'in açılması için yaklaşık 2 dakika bekleyin.**
+2. Next from the VS Code terminal stage and commit the changes to the repository:
 
-9. Codespace'inizin çalıştığını doğrulayın. Tarayıcıda bir VS Code web tabanlı editörü ve aşağıdaki gibi bir terminal görünmelidir.
-   ![Screen Shot 2023-03-09 at 9 09 07 AM](https://user-images.githubusercontent.com/26442605/224102962-d0222578-3f10-4566-856d-8d59f28fcf2e.png)
-10. `copilot` uzantısı, VS Code uzantıları listesinde görünmelidir. Uzantılar yan menüsüne tıklayın. Aşağıdakileri görmelisiniz:  
-   ![Screen Shot 2023-03-09 at 9 04 13 AM](https://user-images.githubusercontent.com/26442605/224102514-7d6d2f51-f435-401d-a529-7bae3ae3e511.png)
+   ```
+   git commit -m "Copilot first commit"
+   ```
 
-**Yaklaşık 60 saniye bekleyin, ardından bir sonraki adım için repository ana sayfanızı yenileyin.**
+3. Finally from the VS Code terminal push to code to the repository:
+
+   ```
+   git push
+   ```
+
+**Wait about 60 seconds then refresh your repository landing page for the next step.**
 
 <footer>
 
